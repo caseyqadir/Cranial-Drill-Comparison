@@ -22,3 +22,5 @@ Change in damaged area pre vs. post-op (d) & (e)
 And we can compare this extrapolated data with standard control groups using (a).
 
 Project Purpose: I am creating a model in advance to analyze the data collected from these pilots. First, I want to learn whether the patients who undergo the Hubly drill have different length of stays in the ICU than patients who undergo the current drill. This analysis will determine Hubly's cost-savings value to hospitals, and more importantly, will be an indication of Hubly's having improved outcomes for patients. To create this model prior to collecting real data, I have used relevant medical studies and random generators to create a database of 200 hypothetical patients.
+
+Extension into Future Work: I briefly delve into an avenue of future work: analyzing the influence of each covariate [Sex, Age, Distance of drill plunge, Procedure length of time] on the conditional variables: `Length of Stay` and `Change in damaged area pre vs. post-op` using *Adjusted Survival Curves*. I use Adjusted Survival Curves and Marginal Selection Approach in RStan as well as Multi-State Models with three states: alive, ICU, and death.
